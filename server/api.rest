@@ -1,0 +1,27 @@
+###
+GET   http://localhost:4000/api/employees
+
+###
+POST  http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Kiara",
+    "position":"Jr. Developer",
+    "office": "Mx",
+    "salary": "20000"
+}
+
+###
+GET http://localhost:4000/api/employees/6179b1b46eca53d5313344bd
+
+###
+DELETE http://localhost:4000/api/employees/61798745f5c31e69bc6620f7
+
+###
+PUT http://localhost:4000/api/employees/6179b1b46eca53d5313344bd
+Content-Type: application/json
+
+{
+    "salary": 80000
+}
